@@ -1,0 +1,811 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family:Cambria;
+}
+.border{
+	border:0.5px solid transparent;
+}
+.border:hover{
+	border:0.5px solid #6c6c6c;
+}
+.nav_bar{
+	height:125px;
+	width:100%;
+	background-color:white;
+	display:flex;
+	align-items:center;
+}
+.logo_of_college_box{
+	height:115px;
+	width:28%;
+	background-color:white;
+	border-radius:5px;
+	margin-left:10%;
+	background-image:url("C:/Users/saifr/OneDrive/Desktop/snsinha/logo.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.information_box{
+	height:30px;
+	width:42%;
+	background-color:#e14177;
+	border-radius:1px;
+	margin-left:10%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.about_box_designs{
+	height:30px;
+	width:13%;
+	border:none;
+	background-color:#e14177;
+	color:white;
+	font-weight:bolder;
+	font-size:15px;
+}
+.style_of_about_us{
+	background-color:white;
+	color:black;
+}
+
+.courses_box_designs{
+	height:30px;
+	width:12%;
+	border:none;
+	background-color:#e14177;
+	color:white;
+	font-weight:bolder;
+	font-size:15px;
+	
+}
+.style_of_courses{
+	background-color:white;
+	color:black;
+}
+.department_box_designs{
+	height:30px;
+	width:17%;
+	border:none;
+	background-color:#e14177;
+	color:white;
+	font-weight:bolder;
+	font-size:15px;
+}
+.style_of_department{
+	background-color:white;
+	color:black;
+}
+.administration_box_designs{
+	height:30px;
+	width:19%;
+	border:none;
+	background-color:#e14177;
+	color:white;
+	font-weight:bolder;
+	font-size:15px;
+}
+.style_of_administration{
+	background-color:white;
+	color:black;
+}
+.students_box_designs{
+	height:30px;
+	width:21%;
+	border:none;
+	background-color:#e14177;
+	color:white;
+	font-weight:bolder;
+	font-size:15px;
+}
+.style_of_students{
+	background-color:white;
+	color:black;
+}
+.naac_box_designs{
+	height:30px;
+	width:9%;
+	border:none;
+	background-color:#e14177;
+	color:white;
+	font-weight:bolder;
+	font-size:15px;
+}
+.style_of_naac{
+	background-color:white;
+	color:black;
+}
+.image_of_college{
+	height:600px;
+	width:99%;
+	background-color:#00000063;
+	margin-left:0.5%;
+	background-image:url(C:/Users/saifr/OneDrive/Desktop/snsinha/B1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position-x:center;
+	background-position-y:none;
+	display:flex;
+	align-items:center;
+	background-blend-mode:darken;
+	overflow:hidden;
+
+}
+
+.Box_of_name_and_details{
+	background-color:transparent;
+	height:120px;
+	width:80%;
+	margin-left:11%;
+}
+.name_of_college{
+	color:#FFFFFF;
+	font-size:50px;
+
+}
+.details_of_college{
+	color:#ffffff;
+	font-size:24px;
+}
+.button_of_Contacts{
+	height:40px;
+	width:90px;
+	background-color:#e14177;
+	color:white;
+	font-weight:bolder;
+	border-radius:5px;
+	border:1.5px solid white;
+	margin-top:10px;
+}
+
+.bg_change_on_hover:hover{
+	background-color:white;
+	color:#e14177;
+}
+.border_of_image{
+	height:15px;
+	width:99%;
+	background-color:transparent;
+	margin-left:0.5%;
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+	
+
+}
+.style_of_border_box1{
+	height:10.5px;
+	width:4%;
+	background-color:yellow;
+}
+.style_of_border_box2{
+	height:10.5px;
+	width:4%;
+	background-color:red;
+}
+.style_of_border_box3{
+	height:10.5px;
+	width:4%;
+	background-color:orange;
+}
+.style_of_border_box4{
+	height:10.5px;
+	width:4%;
+	background-color:blue;
+}
+.style_of_border_box5{
+	height:10.5px;
+	width:4%;
+	background-color:lightgreen;
+}
+.style_of_border_box6{
+	height:10.5px;
+	width:4%;
+	background-color:purple;
+}
+.style_of_border_box7{
+	height:10.5px;
+	width:4%;
+	background-color:grey;
+}
+.style_of_border_box8{
+	height:10.5px;
+	width:4%;
+	background-color:pink;
+}
+.style_of_border_box9{
+	height:10.5px;
+	width:4%;
+	background-color:violet;
+}
+.style_of_border_box10{
+	height:10.5px;
+	width:4%;
+	background-color:indigo;
+}
+.style_of_border_box11{
+	height:10.5px;
+	width:4%;
+	background-color:yellow;
+}
+.style_of_border_box12{
+	height:10.5px;
+	width:4%;
+	background-color:orange;
+}
+.style_of_border_box13{
+	height:10.5px;
+	width:4%;
+	background-color:blue;
+}
+.style_of_border_box14{
+	height:10.5px;
+	width:4%;
+	background-color:red;
+}
+.style_of_border_box15{
+	height:10.5px;
+	width:4%;
+	background-color:pink;
+}
+.style_of_border_box16{
+	height:10.5px;
+	width:4%;
+	background-color:grey;
+}
+.style_of_border_box17{
+	height:10.5px;
+	width:4%;
+	background-color:lightgreen;
+}
+.style_of_border_box18{
+	height:10.5px;
+	width:4%;
+	background-color:yellow;
+}
+.style_of_border_box19{
+	height:10.5px;
+	width:4%;
+	background-color:orange;
+}
+.style_of_border_box20{
+	height:10.5px;
+	width:4%;
+	background-color:indigo;
+}
+.history_of_college_and_latest_news_bg{
+	height:500px;
+	width:99%;
+	margin-left:0.5%;
+	background-color:white;
+	padding-top:50px;
+	padding-bottom:50px;
+	display:flex;
+}
+.box_of_history_of_college{
+	height:500px;
+	width:35%;
+	background-color:white;
+	margin-left:11%;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.text_of_history_of_college{
+	color:darkblue;
+	font-size:35px;
+}
+.text_of_details_of_college{
+	color:black;
+	font-size:17px;
+}
+.box_of_news_of_college{
+	height:500px;
+	width:43%;
+	background-color:white;
+	margin-left:20px;
+	 overflow: hidden;
+
+	
+}
+.image_of_latest_news{
+	height:100px;
+	width:100%;
+	background-color:white;
+	background-image:url(C:/Users/saifr/OneDrive/Desktop/snsinha/1.jpg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position-x:center;
+	
+   
+
+	
+
+}
+.heading_of_news{
+	color:red;
+	margin-top:15px;
+	text-align:center;
+
+}
+.heading_of_news:hover{
+	text-decoration:underline;
+}
+.message_box{
+	height:30px;
+	width:99%;
+	margin-left:0.5%;
+	background-color:transparent;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	
+	
+}
+.message{
+	text-decoration:underline;
+}
+.principal{
+	font-size:40px;
+	text-decoration:underline;
+}
+.PRINCIPAL_box{
+	height:45px;
+	width:99%;
+	margin-left:0.5%;
+	background-color:transparent;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-bottom:30px;
+}
+.image_and_Details_box{
+	height:296px;
+	width:99%;
+	margin-left:0.5%;
+	background-color:transparent;
+	display:flex;
+	margin-bottom:30px;
+}
+.principal_image_box{
+	height:296px;
+	width:35%;
+	background-color:transparent;
+	margin-left:11%;
+	
+	background-image:url(C:/Users/saifr/OneDrive/Desktop/snsinha/G1NEW.jpg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	
+}
+.principal_details_box{
+	height:296px;
+	width:45%;
+	background-color:transparent;
+	margin-left:4%;
+	
+}
+.details_of_principal{
+	font-size:20px;
+	color:blue;
+}
+.Telegram_QR_box{
+	height:296px;
+	width:35%;
+	background-color:transparent;
+	margin-left:11%;
+	
+	background-image:url(C:/Users/saifr/OneDrive/Desktop/snsinha/telegram_of_sns_college.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position-x:center;
+	
+}
+.click_now{
+	margin-left:30%;
+	font-size:30px;
+	font-weight:bolder;
+	color:blue;
+}
+.course_offers_box{
+	height:160px;
+	width:100%;
+	margin-left:0%;
+	background-color:#EDEDED;
+	padding-top:75px;
+	padding-bottom:75px;
+}
+.offered_courses{
+	height:42px;
+	width:100%;
+	background-color:transparent;
+	text-align:center;
+
+}
+.offered_text{
+	font-family:Cambria;
+	font-size:35px;
+	font-weight:bolder;
+	
+}
+.Details_courses{
+	height:200px;
+	width:78%;
+	background-color:transparent;
+	margin-left:11%;
+	margin-top:10px;
+}
+.text_of_details_course{
+	font-size:20px;
+	color:#000066;
+}
+.content_box{
+	height:360px;
+	width:100%;
+	margin-left:0%;
+	background-color:white;
+	padding-top:50px;
+	padding-bottom:50px;
+	display:flex;
+}
+.box_area1{
+	height:400px;
+	width:18.75%;
+	background-color:#EDEDED;
+	margin-left:11%;
+	
+}
+.area1small_box{
+	height:150px;
+	width:100%;
+	background-color:#41EDB2;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.circle_bg{
+	height:100px;
+	width:100px;
+	border-radius:100%;
+	background-color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:40px;
+}
+.box_area1_heading{
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-family:Cambria;
+	font-size:25px;
+}
+.box_area1_paragraph{
+	font-size:18px;
+	margin-left:20px;
+	margin-right:20px;
+
+}
+.box_area2{
+	height:400px;
+	width:18.75%;
+	background-color:#EDEDED;
+	margin-left:1%;
+	
+}
+.area2small_box{
+	height:150px;
+	width:100%;
+	background-color:#24A3DB;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.box_area3{
+	height:400px;
+	width:18.75%;
+	background-color:#EDEDED;
+	margin-left:1%;
+	
+}
+.area3small_box{
+	height:150px;
+	width:100%;
+	background-color:#F2A458;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.box_area4{
+	height:400px;
+	width:18.75%;
+	background-color:#EDEDED;
+	margin-left:1%;
+}
+.area4small_box{
+	height:150px;
+	width:100%;
+	background-color:#F54E81;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.event_and_program{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.paragraph_event_and_program{
+	text-align:center;
+	font-size:18px;
+	margin-bottom:50px;
+}
+.image_box{
+	height:420px;
+	width:100%;
+	background-color:transparent;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	margin-bottom:50px;
+}
+
+#image_box1{
+	height:200px;
+	width:18.75%;
+	background-color:white;
+	margin-left:11%;
+	overflow:hidden;
+	
+	
+}
+#image1{
+	height:200px;
+	width:100%;
+	transition:all ease 0.5s;
+	
+}
+
+#image_box1:hover img{
+	scale:1.5;
+}
+#image_box2{
+	height:200px;
+	width:18.75%;
+	background-color:white;
+	margin-left:1%;
+	overflow:hidden;
+}
+#image2{
+	height:200px;
+	width:100%;
+	transition:all ease 0.5s;
+	
+}
+
+#image_box2:hover img{
+	scale:1.5;
+}
+#image_box3{
+	height:200px;
+	width:18.75%;
+	background-color:white;
+	margin-left:1%;
+	overflow:hidden;
+}
+#image3{
+	height:200px;
+	width:100%;
+	transition:all ease 0.5s;
+	
+}
+
+#image_box3:hover img{
+	scale:1.5;
+}
+#image_box4{
+	height:200px;
+	width:18.75%;
+	background-color:white;
+	margin-left:1%;
+	overflow:hidden;
+}
+#image4{
+	height:200px;
+	width:100%;
+	transition:all ease 0.5s;
+	
+}
+
+#image_box4:hover img{
+	scale:1.5;
+}
+
+
+
+#image_box5{
+	height:200px;
+	width:18.75%;
+	background-color:white;
+	margin-left:11%;
+	overflow:hidden;
+}
+#image5{
+	height:200px;
+	width:100%;
+	transition:all ease 0.5s;
+	
+}
+
+#image_box5:hover img{
+	scale:1.5;
+}
+
+#image_box6{
+	height:200px;
+	width:18.75%;
+	background-color:white;
+	margin-left:1%;
+	overflow:hidden;
+}
+#image6{
+	height:200px;
+	width:100%;
+	transition:all ease 0.5s;
+	
+}
+
+#image_box6:hover img{
+	scale:1.5;
+}
+
+#image_box7{
+	height:200px;
+	width:18.75%;
+	background-color:white;
+	margin-left:1%;
+	overflow:hidden;
+}
+#image7{
+	height:200px;
+	width:100%;
+	transition:all ease 0.5s;
+	
+}
+
+#image_box7:hover img{
+	scale:1.5;
+}
+
+#image_box8{
+	height:200px;
+	width:18.75%;
+	background-color:white;
+	margin-left:1%;
+	overflow:hidden;
+}
+#image8{
+	height:200px;
+	width:100%;
+	transition:all ease 0.5s;
+	
+}
+
+#image_box8:hover img{
+	scale:1.5;
+	
+}
+.footer_bg_box{
+	height:150px;
+	width:99%;
+	margin-left:0.5%;
+	background-color:#2D2D2D;
+	display:flex;
+	align-items:center;
+	padding-top:50px;
+	padding-bottom:50px;
+	
+}
+.footer_bg_box div{
+	background-color:transparent;
+}
+.our_contacts_box{
+	height:150px;
+	width:18.75%;
+	margin-left:11%;
+	background-color:white;
+	
+}
+.text_of_our_contacts{
+		font-family:Cambria;
+		font-size:17px;
+		margin-bottom:15px;
+		color:white;
+		
+}
+.text_of_college_name{
+	font-family:Cambria;
+		font-size:17px;
+			color:#f5f5f5;
+}
+.text_of_college_address{
+		font-family:Cambria;
+		font-size:17px;
+		margin-bottom:15px;
+			color:#f5f5f5;
+		
+		
+}
+.text_of_college_number{
+	color:#f5f5f5;
+}
+.quick_link_box{
+	height:150px;
+	width:18.75%;
+	margin-left:1%;
+	background-color:white;
+	
+	
+}
+.text_of_Quick_link{
+		font-family:Cambria;
+		font-size:17px;
+		margin-bottom:15px;
+		color:white;
+		
+}
+.text_of_link1{
+	margin-bottom:5px;
+	color:#f5f5f5;
+}
+.links_box{
+	height:150px;
+	width:18.75%;
+	margin-left:1%;
+	background-color:white;
+}
+.text_of_links{
+	font-size:17px;
+		margin-bottom:15px;
+		color:white;
+}
+.other_links_box{
+	height:150px;
+	width:18.75%;
+	margin-left:1%;
+	background-color:white;
+}
+.text_of_other_links{
+	font-size:17px;
+		margin-bottom:15px;
+		color:white;
+}
+.final_footer_bg{
+	height:75px;
+	width:99%;
+	margin-left:0.5%;
+	background-color:#202020;
+	color:#f5f5f5;
+	display:flex;
+	align-items:center;
+}
+.copyright_text_bg_box{
+	height:20px;
+	width:32%;
+	background-color:transparent;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-left:11%;
+}
+.icon_box{
+	height:20px;
+	width:15%;
+	background-color:transparent;
+	margin-left:31%;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
